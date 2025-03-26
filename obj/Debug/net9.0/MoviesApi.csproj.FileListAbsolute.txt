@@ -34,3 +34,4 @@ C:\C#\source\MoviesApi\obj\Debug\net9.0\refint\MoviesApi.dll
 C:\C#\source\MoviesApi\obj\Debug\net9.0\MoviesApi.pdb
 C:\C#\source\MoviesApi\obj\Debug\net9.0\MoviesApi.genruntimeconfig.cache
 C:\C#\source\MoviesApi\obj\Debug\net9.0\ref\MoviesApi.dll
+C:\C#\source\MoviesApi\obj\Debug\net9.0\MoviesApi.sourcelink.json
