@@ -71,7 +71,7 @@ namespace MoviesApi.Repository {
             command.Parameters.AddWithValue("@G", m.Genre);
 
             int result = command.ExecuteNonQuery();
-            
+            Console.WriteLine($"Inserted {result} rows in \"Moives\"");
             return;
         }
 
@@ -84,11 +84,17 @@ namespace MoviesApi.Repository {
             command.Parameters.AddWithValue("@updateKey", name);
 
             int result = command.ExecuteNonQuery();
+            Console.WriteLine($"Updated {result} rows in \"Moives\"");
             return;
         }
 
         public void DeleteMovie(string name){
+            var statement = "Delete From Movies where Name = @deleteKey";
+            var command = new MySqlCommand(statement, _connetion);
+            command.Parameters.AddWithValue("@deleteKey", name);
             
+            int result = command.ExecuteNonQuery();
+            Console.WriteLine($"Deleted {result} rows from \"Moives\"");
             return;
         }
     }
