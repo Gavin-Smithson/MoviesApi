@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\source\\MoviesApi\\MoviesApi.csproj": {}
+    "C:\\Repos\\MoviesApi\\MoviesApi.csproj": {}
   },
   "projects": {
-    "C:\\C#\\source\\MoviesApi\\MoviesApi.csproj": {
+    "C:\\Repos\\MoviesApi\\MoviesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\source\\MoviesApi\\MoviesApi.csproj",
+        "projectUniqueName": "C:\\Repos\\MoviesApi\\MoviesApi.csproj",
         "projectName": "MoviesApi",
-        "projectPath": "C:\\C#\\source\\MoviesApi\\MoviesApi.csproj",
-        "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\source\\MoviesApi\\obj\\",
+        "projectPath": "C:\\Repos\\MoviesApi\\MoviesApi.csproj",
+        "packagesPath": "C:\\Users\\G_Laptop\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\MoviesApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gavin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\G_Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -74,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

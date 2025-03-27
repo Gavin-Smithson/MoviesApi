@@ -1,4 +1,5 @@
 using System.Numerics;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using MoviesApi.Models;
@@ -63,6 +64,7 @@ public class MovieController : ControllerBase
             _service.UpdateMovie(name, movieIn);     
             return NoContent();    
         } catch(Exception e) {
+            Console.WriteLine("Exception on update: " + e);
             return StatusCode(500);
         }
     }
